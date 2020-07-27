@@ -23,3 +23,5 @@ Classes belonging to the application domain have been created inside the cart/do
 ## Instructions
 Clone repository and use it
 http://localhost/cart
+
+![Class Diagrams](uml/cart_domain_clases.png)

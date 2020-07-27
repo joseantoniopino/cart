@@ -12,7 +12,6 @@ final class Order
     private bool $voucher_v;
     private bool $voucher_r;
     private bool $voucher_s;
-    private array $productsId;
     private int $productAmountA;
     private int $productAmountB;
 
@@ -24,7 +23,6 @@ final class Order
         $this->voucher_v = false;
         $this->voucher_r = false;
         $this->voucher_s = false;
-        $this->productsId = [];
         $this->productAmountA = 0;
         $this->productAmountB = 0;
     }

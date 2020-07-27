@@ -22,11 +22,6 @@ final class Cart
      */
     public function addProduct(Product $product): void
     {
-        /*if (!in_array($product, $this->products)){
-            array_push($this->products, $product);
-        } else {
-            $product->increaseAmount(1);
-        }*/
         array_push($this->products, $product);
     }
 
